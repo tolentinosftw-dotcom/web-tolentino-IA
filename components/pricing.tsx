@@ -20,8 +20,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "Mensual",
               period: "por mes",
-              price: "$1,000",
-              priceSuffix: "- $2,500",
+              price: "$2,500",
+              priceSuffix: "- $30,000",
               description: "Ideal para empezar rapido con flexibilidad total.",
               featured: false,
               features: [
@@ -40,8 +40,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "Plan 6 meses",
               period: "total",
-              price: "$5,000",
-              priceSuffix: "- $11,000",
+              price: "$12,000",
+              priceSuffix: "- $150,000",
               description: "Para negocios que quieren consolidar el sistema y capturar ROI compuesto.",
               featured: true,
               features: [
@@ -60,8 +60,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "Plan anual",
               period: "total",
-              price: "$10,000",
-              priceSuffix: "- $23,000",
+              price: "$22,000",
+              priceSuffix: "- $260,000",
               description: "La solucion completa para equipos que quieren escalar ventas a largo plazo.",
               featured: false,
               features: [
@@ -91,8 +91,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "Monthly",
               period: "per month",
-              price: "$1,000",
-              priceSuffix: "- $2,500",
+              price: "$2,500",
+              priceSuffix: "- $30,000",
               description: "Ideal for teams that want to start lean with full flexibility.",
               featured: false,
               features: [
@@ -111,8 +111,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "6-Month Plan",
               period: "total",
-              price: "$5,000",
-              priceSuffix: "- $11,000",
+              price: "$12,000",
+              priceSuffix: "- $150,000",
               description: "Best for teams ready to lock in the system and capture compounding ROI.",
               featured: true,
               features: [
@@ -131,8 +131,8 @@ export function Pricing({ locale }: PricingProps) {
             {
               name: "Annual Plan",
               period: "one-time",
-              price: "$10,000",
-              priceSuffix: "- $23,000",
+              price: "$22,000",
+              priceSuffix: "- $260,000",
               description: "The full solution for teams serious about scaling sales for the long term.",
               featured: false,
               features: [
