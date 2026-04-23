@@ -14,6 +14,7 @@ import { Benefits } from "@/components/benefits"
 import { FAQ } from "@/components/faq"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
+import { FloatingWhatsappButton } from "@/components/floating-whatsapp-button"
 import type { Locale } from "@/lib/locale"
 
 export default function HomePage() {
@@ -73,6 +74,7 @@ export default function HomePage() {
       <FAQ locale={locale} />
       <FinalCTA locale={locale} />
       <Footer locale={locale} />
+      <FloatingWhatsappButton locale={locale} />
     </main>
   )
 }

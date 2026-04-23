@@ -279,6 +279,7 @@ export function LiveDemoCard({ locale, variant = "section", id }: LiveDemoCardPr
             <Send size={13} />
           </button>
         </div>
+
       </div>
     </div>
   )
