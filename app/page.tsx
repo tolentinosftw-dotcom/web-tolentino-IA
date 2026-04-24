@@ -18,18 +18,13 @@ import { FloatingWhatsappButton } from "@/components/floating-whatsapp-button"
 import type { Locale } from "@/lib/locale"
 
 export default function HomePage() {
-  const [locale, setLocale] = useState<Locale>("es")
+  const [locale, setLocale] = useState<Locale>("en")
 
   useEffect(() => {
     const savedLocale = window.localStorage.getItem("tolentino-locale")
 
     if (savedLocale === "es" || savedLocale === "en") {
       setLocale(savedLocale)
-      return
-    }
-
-    if (!window.navigator.language.toLowerCase().startsWith("es")) {
-      setLocale("en")
     }
   }, [])
 
